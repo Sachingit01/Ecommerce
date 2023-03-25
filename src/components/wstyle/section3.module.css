@@ -1,0 +1,131 @@
+.body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#h1 {
+  text-align: left;
+}
+.flex3 {
+  margin-top: 40px;
+  /* margin-bottom: 100px;  */
+  max-height: 700px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 50px;
+}
+.flex3::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.flexa2 {
+  height: 600px;
+  min-width: 300px;
+  background-color: #fbfbfb;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* justify-content: center; */
+  /* padding-bottom: 80px; */
+  cursor: pointer;
+}
+.photo {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  width: 100%;
+}
+.flexa2 img {
+  height: 400px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.flexa2 video {
+  height: 450px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#text1 {
+  height: 200px;
+  min-width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+  font-size: 13px;
+}
+#p {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+#text1 a {
+  color: black;
+  font-weight: 800;
+}
+#text1 a:hover {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+#gray {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+#gray1 {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 85px;
+  font-size: 16px;
+}
+#gray2 {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 65px;
+  font-size: 16px;
+}
+#gray3 {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+#gray4 {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 70px;
+  font-size: 16px;
+}
+#gray5 {
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-bottom: 75px;
+  font-size: 16px;
+}
+
+.arrow {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.arrow img {
+  float: right;
+  height: 20px;
+  position: relative;
+  padding-right: 20px;
+  bottom: 20px;
+  right: 20px;
+}
+.arrow img:hover {
+  background-color: black;
+  fill: white;
+}

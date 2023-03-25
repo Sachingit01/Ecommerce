@@ -1,0 +1,26 @@
+/* *{
+  outline: 1px solid black;
+} */
+.details {
+  min-height: 350px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+.details h1 {
+  margin-bottom: 20px;
+}
+
+.details p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+@media (max-width:720px){
+  .details {
+      text-align:left;
+  }
+}

@@ -1,0 +1,229 @@
+.empty {
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.emptyHead {
+  margin-left: 100px;
+  margin-top: 50px;
+  color: black;
+  font-weight: 700;
+}
+.emptyPara {
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.emptyButton {
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.emptyimage {
+  float: left;
+  margin: 40px 0px 8rem 100px;
+}
+.head {
+  min-height: 50px;
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  text-align: left;
+}
+
+.cartHead {
+  margin-left: 50px;
+  margin-top: 50px;
+  color: black;
+  font-weight: 700;
+}
+.head p {
+  margin-left: 50px;
+}
+
+.cartContainer {
+  min-height: 50px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* display: flex;
+  justify-content: left; */
+  margin-bottom: 30px;
+}
+.cartSection1 {
+  min-height: 50px;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.item {
+  min-height: 100px;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 50px;
+  overflow: auto;
+  resize: both;
+}
+.dropdown {
+  background-color: white;
+  min-height: 50px;
+  width: 60px;
+  margin-left: 30px;
+}
+#qty {
+  width: 10%;
+  border-radius: 100%;
+  background-color: white;
+  border-color: antiquewhite;
+  margin: 10px;
+}
+#clearbutton {
+  float: right;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  color: gray;
+  border-radius: 10px;
+  width: 100%;
+ 
+}
+#clearbutton:hover {
+  background-color: red;
+  color: white;
+
+}
+#clearButton {
+  min-height: 10px;
+  width: 55%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+}
+
+#details {
+  margin-top: 30px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+#details h4 {
+  margin-left: 30px;
+  font-size: large;
+}
+#details p {
+  margin-left: 30px;
+}
+#details h6 {
+  margin-left: 30px;
+}
+#price {
+  margin-top: 30px;
+  display: flex;
+}
+#price h4 {
+  margin-right: 10px;
+}
+#Closebutton {
+  margin-right: 20px;
+  color: black;
+}
+#Closebutton:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.cartSection2 {
+  min-height: 50px;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+  float: right;
+  /* margin-top: 1%; */
+}
+#checkButton {
+  min-height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 3rem;
+  overflow: auto;
+  resize: both;
+}
+#checkButton:hover {
+  color: gray;
+}
+
+#item {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#delivery {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#line {
+  min-height: 1px;
+  max-width: 100%;
+  background-color: rgb(204, 199, 199);
+}
+#total {
+  min-height: 20px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#tax {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  color: gray;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+#promo {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  margin-top: 40px;
+}
+#promo input {
+  padding: 15px;
+  width: 100%;
+}
+#promo input::placeholder {
+  color: rgb(96, 96, 96);
+}
+#imgl {
+  margin-top: 20px;
+  height: 50px;
+}
+.anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+.anchor a {
+  color: black;
+  margin-bottom: 10px;
+}
+@media (max-width: 720px) {
+ 
+}

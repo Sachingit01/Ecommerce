@@ -1,0 +1,21 @@
+.flex {
+  min-height: 400px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 100px;
+}
+.head {
+  text-align: left;
+}
+.p {
+  text-align: left;
+}
+.a {
+  text-align: left;
+  color: black;
+}
+.a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}

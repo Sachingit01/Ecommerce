@@ -1,0 +1,26 @@
+.container {
+  min-height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+}
+.card::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+#h1 {
+  text-align: left;
+}
+.body {
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,256 @@
+.Container {
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.form input {
+  padding: 10px;
+  padding-left: 50px;
+  /* margin-right: 20px; */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.form input::placeholder {
+  color: gray;
+}
+.form select {
+  height: 50px;
+  width: 43%;
+  /* margin-top: 20px; */
+  margin-right: 20px;
+}
+.form option {
+  overflow-x: scroll;
+}
+.flex {
+  display: flex;
+}
+.coloum input {
+  width: 90%;
+  margin: 0px;
+}
+.form label {
+  color: rgb(167, 163, 163);
+  text-align: left;
+  margin-bottom: 20px;
+}
+@media (max-width: 720px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+}
+
+.cartSection2 {
+  min-height: 50px;
+  /* width: 30%; */
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+  float: right;
+  margin-top: 5%;
+}
+#checkButton {
+  min-height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 3rem;
+  overflow: auto;
+  resize: both;
+}
+#checkButton:hover {
+  color: gray;
+}
+
+#item {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#delivery {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#line {
+  min-height: 1px;
+  max-width: 100%;
+  background-color: rgb(204, 199, 199);
+}
+#total {
+  min-height: 20px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#tax {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  color: gray;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+#promo {
+  min-height: 30px;
+  max-width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#promo input {
+  padding: 15px;
+  width: 100%;
+}
+#promo input::placeholder {
+  color: rgb(96, 96, 96);
+}
+#imgl {
+  margin-top: 20px;
+  height: 50px;
+  margin-bottom: 70px;
+}
+.anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+.anchor a {
+  color: black;
+  margin-bottom: 10px;
+}
+@media (max-width: 520px) {
+  #imgl {
+    min-height: 10px;
+  }
+}
+.cartSection2 h5 {
+  font-size: var(--gl-body-font-set-size-functional-12);
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  /* margin-top: 100px; */
+}
+.details {
+  display: flex;
+}
+#dtls {
+  margin: 10px;
+}
+.terms{
+  margin: 10px;
+}
+.section3 {
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  margin-right: 0px;
+  text-align: left;
+  display: flex;
+}
+.card1 {
+  min-height: 100px;
+  max-width: 70%;
+}
+.card2 {
+  min-height: 100px;
+  max-width: 40%;
+  margin-left: 50px;
+  font-size: small;
+  text-align: left;
+}
+#pay {
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgba(192, 244, 226, 0.324);
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20px;
+}
+#pay h5 {
+  font-size: 16px;
+}
+#delive {
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.324);
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 20px;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 20px;
+}
+#delivery h4 {
+  font-size: 16px;
+}
+#a {
+  display: flex;
+  flex-direction: column;
+}
+#a h4 {
+  font-size: large;
+}
+
+#contact {
+  padding: 10px;
+  padding-left: 50px;
+  width: 70%;
+  margin-right: 20px;
+
+  margin-bottom: 20px;
+}
+#contact::placeholder {
+  color: gray;
+}
+
+#title {
+  font-size: 25px;
+  margin-top: 20px;
+  color: black;
+}
+
+#btn {
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.card2 input{
+  margin-bottom: 20px;
+}
+@media (max-width:720px){
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#heading{
+  font-size: larger;
+}

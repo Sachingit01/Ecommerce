@@ -1,0 +1,10 @@
+.head2 {
+  height: 800px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+}
+.head2 video {
+  width: 100%;
+  height: 100%;
+}

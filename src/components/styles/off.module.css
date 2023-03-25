@@ -1,0 +1,28 @@
+/* *{
+  outline: 1px solid black;
+} */
+
+.shoping {
+  min-height: 150px;
+  max-width: 100%;
+  background-color: #f7f318;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoping button {
+  min-height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin-left: 40px;
+}
+.signup {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 720px) {
+  .shoping {
+    display: none;
+  }
+}
