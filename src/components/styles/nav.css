@@ -81,16 +81,19 @@ a {
   .nav__toggler {
     display: block;
     cursor: pointer;
+    z-index: 999;
   }
   .nav__menu {
     position: fixed;
-    top: 7vh;
+    top: 0vh;
     right: 0;
     height: 100vh;
     width: 50vw;
-    background: black;
+    background: rgb(0, 0, 0);
     flex-direction: column;
-    transform: translateX(100%);
+    justify-content: space-around;
+    align-items: center;
+        transform: translateX(100%);
     transition: 0.5s ease-in;
     z-index: 999;
   }
